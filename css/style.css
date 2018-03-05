@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+  display: grid;
+  justify-content: center;
+}
+
+#main {
+    max-width: 1024px;
+    min-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
+    color: #0e3e7d;
+}
+
+header {
+    display: grid;
+    justify-items: center;
+    color: #0e3e7d;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    align-self: end;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 0;
+}
+
+#img-div {
+    grid-column: 1;
+    max-width: 100%;
+    display: grid;
+    justify-content: center;
+    background: #fff;
+    padding: 1rem;
+}
+
+#image {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#tribute-info {
+    display: grid;
+    justify-items: center;
+}
+
+.gus-trivia {
+    max-width: 640px;
+}
+
+.quote {
+    font-size: 2rem;
+    text-align: center;
+    color: #111;
+    font-style: italic;
+}
+
+figcaption {
+    margin: 0 40px;
+    font-size: 1rem;
+    color: #666;
+    font-style: normal;
+}
+
+
+footer {
+    display: grid;
+    justify-content: center;
+}
